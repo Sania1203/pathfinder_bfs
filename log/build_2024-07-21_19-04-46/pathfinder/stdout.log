@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target algo_out[0m
+[ 50%] Built target in_map
+[ 75%] [32mBuilding CXX object CMakeFiles/algo_out.dir/src/node2_algo_out.cpp.o[0m
+[100%] [32m[1mLinking CXX executable algo_out[0m
+[100%] Built target algo_out
+-- Install configuration: ""
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/lib/pathfinder/in_map
+-- Set runtime path of "/home/reaper/ros2_ws/src/pathfinder/install/pathfinder/lib/pathfinder/in_map" to ""
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/lib/pathfinder/algo_out
+-- Set runtime path of "/home/reaper/ros2_ws/src/pathfinder/install/pathfinder/lib/pathfinder/algo_out" to ""
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/ament_index/resource_index/package_run_dependencies/pathfinder
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/ament_index/resource_index/parent_prefix_path/pathfinder
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/environment/ament_prefix_path.sh
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/environment/ament_prefix_path.dsv
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/environment/path.sh
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/environment/path.dsv
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/local_setup.bash
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/local_setup.sh
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/local_setup.zsh
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/local_setup.dsv
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/package.dsv
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/ament_index/resource_index/packages/pathfinder
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/cmake/pathfinderConfig.cmake
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/cmake/pathfinderConfig-version.cmake
+-- Installing: /home/reaper/ros2_ws/src/pathfinder/install/pathfinder/share/pathfinder/package.xml

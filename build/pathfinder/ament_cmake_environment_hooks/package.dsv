@@ -1,0 +1,4 @@
+source;share/pathfinder/local_setup.bash
+source;share/pathfinder/local_setup.dsv
+source;share/pathfinder/local_setup.sh
+source;share/pathfinder/local_setup.zsh

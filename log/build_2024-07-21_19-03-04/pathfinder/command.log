@@ -1,0 +1,4 @@
+Invoking command in '/home/reaper/ros2_ws/src/pathfinder/build/pathfinder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/reaper/ros2_ws/src/pathfinder -DCMAKE_INSTALL_PREFIX=/home/reaper/ros2_ws/src/pathfinder/install/pathfinder
+Invoked command in '/home/reaper/ros2_ws/src/pathfinder/build/pathfinder' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/reaper/ros2_ws/src/pathfinder -DCMAKE_INSTALL_PREFIX=/home/reaper/ros2_ws/src/pathfinder/install/pathfinder
+Invoking command in '/home/reaper/ros2_ws/src/pathfinder/build/pathfinder': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/reaper/ros2_ws/src/pathfinder/build/pathfinder -- -j8 -l8
+Invoked command in '/home/reaper/ros2_ws/src/pathfinder/build/pathfinder' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/reaper/ros2_ws/src/pathfinder/build/pathfinder -- -j8 -l8

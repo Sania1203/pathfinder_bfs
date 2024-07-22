@@ -1,0 +1,590 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (pathfinder) JobQueued: {'identifier': 'pathfinder', 'dependencies': OrderedDict()}
+[0.000222] (pathfinder) JobStarted: {'identifier': 'pathfinder'}
+[0.008568] (pathfinder) JobProgress: {'identifier': 'pathfinder', 'progress': 'cmake'}
+[0.009051] (pathfinder) Command: {'cmd': ['/usr/bin/cmake', '/home/reaper/ros2_ws/src/pathfinder', '-DCMAKE_INSTALL_PREFIX=/home/reaper/ros2_ws/src/pathfinder/install/pathfinder'], 'cwd': '/home/reaper/ros2_ws/src/pathfinder/build/pathfinder', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'reaper'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1068'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/reaper'), ('OLDPWD', '/home/reaper/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '948'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'reaper'), ('JOURNAL_STREAM', '8:28522'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'reaper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/reaper-Overlord:@/tmp/.ICE-unix/1138,unix/reaper-Overlord:/tmp/.ICE-unix/1138'), ('INVOCATION_ID', '854c90f1b1fe41a5a62ebd40033b35c4'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/258db790_833d_4520_8632_92e6a3f5bcf7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1729'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/reaper/ros2_ws/src/pathfinder/build/pathfinder'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.066537] (pathfinder) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.100822] (-) TimerEvent: {}
+[0.118826] (pathfinder) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.122835] (pathfinder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.194401] (pathfinder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.195107] (pathfinder) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.201597] (-) TimerEvent: {}
+[0.264659] (pathfinder) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.274488] (pathfinder) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.274820] (pathfinder) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.277048] (pathfinder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.301715] (-) TimerEvent: {}
+[0.356484] (pathfinder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.357399] (pathfinder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.402219] (-) TimerEvent: {}
+[0.434957] (pathfinder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.444679] (pathfinder) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.445075] (pathfinder) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.447427] (pathfinder) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.468800] (pathfinder) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.469021] (pathfinder) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.502340] (-) TimerEvent: {}
+[0.605678] (-) TimerEvent: {}
+[0.637419] (pathfinder) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.677768] (pathfinder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.683610] (pathfinder) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.706948] (-) TimerEvent: {}
+[0.766351] (pathfinder) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.794716] (pathfinder) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.807999] (-) TimerEvent: {}
+[0.869127] (pathfinder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.909870] (-) TimerEvent: {}
+[0.918651] (pathfinder) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.919804] (pathfinder) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.920701] (pathfinder) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.993400] (pathfinder) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.993621] (pathfinder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.010307] (-) TimerEvent: {}
+[1.066463] (pathfinder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.066701] (pathfinder) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.110363] (-) TimerEvent: {}
+[1.127757] (pathfinder) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.127977] (pathfinder) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.199352] (pathfinder) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.200348] (pathfinder) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.210400] (-) TimerEvent: {}
+[1.311905] (-) TimerEvent: {}
+[1.391259] (pathfinder) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.400979] (pathfinder) StdoutLine: {'line': b'-- Generating done\n'}
+[1.402603] (pathfinder) StdoutLine: {'line': b'-- Build files have been written to: /home/reaper/ros2_ws/src/pathfinder/build/pathfinder\n'}
+[1.409026] (pathfinder) CommandEnded: {'returncode': 0}
+[1.409592] (pathfinder) JobProgress: {'identifier': 'pathfinder', 'progress': 'build'}
+[1.412351] (pathfinder) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/reaper/ros2_ws/src/pathfinder/build/pathfinder', '--', '-j8', '-l8'], 'cwd': '/home/reaper/ros2_ws/src/pathfinder/build/pathfinder', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'reaper'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1068'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/reaper'), ('OLDPWD', '/home/reaper/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '948'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'reaper'), ('JOURNAL_STREAM', '8:28522'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'reaper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/reaper-Overlord:@/tmp/.ICE-unix/1138,unix/reaper-Overlord:/tmp/.ICE-unix/1138'), ('INVOCATION_ID', '854c90f1b1fe41a5a62ebd40033b35c4'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/258db790_833d_4520_8632_92e6a3f5bcf7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1729'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/reaper/ros2_ws/src/pathfinder/build/pathfinder'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.413260] (-) TimerEvent: {}
+[1.454388] (pathfinder) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target in_map\x1b[0m\n'}
+[1.454619] (pathfinder) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target algo_out\x1b[0m\n'}
+[1.497777] (pathfinder) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/algo_out.dir/src/node2_algo_out.cpp.o\x1b[0m\n'}
+[1.497978] (pathfinder) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/in_map.dir/src/node1_in_map.cpp.o\x1b[0m\n'}
+[1.513779] (-) TimerEvent: {}
+[1.614299] (-) TimerEvent: {}
+[1.714556] (-) TimerEvent: {}
+[1.815130] (-) TimerEvent: {}
+[1.916317] (-) TimerEvent: {}
+[2.016904] (-) TimerEvent: {}
+[2.117578] (-) TimerEvent: {}
+[2.218271] (-) TimerEvent: {}
+[2.318868] (-) TimerEvent: {}
+[2.419451] (-) TimerEvent: {}
+[2.519972] (-) TimerEvent: {}
+[2.620573] (-) TimerEvent: {}
+[2.679694] (pathfinder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[2.680248] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.680315] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.680369] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.680419] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:6\x1b[m\x1b[K:\n'}
+[2.680470] (pathfinder) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = Point; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.680531] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:23:56:\x1b[m\x1b[K   required from here\n'}
+[2.680583] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:166:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const Point&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.680669] (pathfinder) StderrLine: {'line': b'  166 |       rclcpp::\x1b[01;31m\x1b[KParameterValue(default_value)\x1b[m\x1b[K,\n'}
+[2.680722] (pathfinder) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.680779] (pathfinder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[2.680829] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[2.680878] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[2.680926] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.680977] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.681029] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.681079] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:6\x1b[m\x1b[K:\n'}
+[2.681163] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:121:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.681230] (pathfinder) StderrLine: {'line': b'  121 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<std::string> & string_array_value);\n'}
+[2.681280] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.681329] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:121:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::__cxx11::basic_string<char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.681383] (pathfinder) StderrLine: {'line': b'  121 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<std::string> & string_array_value\x1b[m\x1b[K);\n'}
+[2.681432] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.681481] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:118:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<double, std::allocator<double> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.681531] (pathfinder) StderrLine: {'line': b'  118 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<double> & double_array_value);\n'}
+[2.681580] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.681630] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:118:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<double, std::allocator<double> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.681712] (pathfinder) StderrLine: {'line': b'  118 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<double> & double_array_value\x1b[m\x1b[K);\n'}
+[2.681764] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.681813] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:115:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.681863] (pathfinder) StderrLine: {'line': b'  115 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<float> & double_array_value);\n'}
+[2.681920] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.681969] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:115:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<float>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.682025] (pathfinder) StderrLine: {'line': b'  115 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<float> & double_array_value\x1b[m\x1b[K);\n'}
+[2.682075] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.682124] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:112:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<long int, std::allocator<long int> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.682201] (pathfinder) StderrLine: {'line': b'  112 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int64_t> & int_array_value);\n'}
+[2.682270] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.682320] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:112:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<long int, std::allocator<long int> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.682371] (pathfinder) StderrLine: {'line': b'  112 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int64_t> & int_array_value\x1b[m\x1b[K);\n'}
+[2.682420] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.682470] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:109:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<int>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.682519] (pathfinder) StderrLine: {'line': b'  109 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int> & int_array_value);\n'}
+[2.682568] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.682616] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:109:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.682671] (pathfinder) StderrLine: {'line': b'  109 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int> & int_array_value\x1b[m\x1b[K);\n'}
+[2.683095] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.683326] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:106:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<bool, std::allocator<bool> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.683402] (pathfinder) StderrLine: {'line': b'  106 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<bool> & bool_array_value);\n'}
+[2.683454] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.683504] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:106:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<bool, std::allocator<bool> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.683561] (pathfinder) StderrLine: {'line': b'  106 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<bool> & bool_array_value\x1b[m\x1b[K);\n'}
+[2.683612] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.683662] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<unsigned char, std::allocator<unsigned char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.683737] (pathfinder) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<uint8_t> & byte_array_value);\n'}
+[2.683798] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.683848] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:103:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.683899] (pathfinder) StderrLine: {'line': b'  103 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<uint8_t> & byte_array_value\x1b[m\x1b[K);\n'}
+[2.683948] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.683998] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:100:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.684049] (pathfinder) StderrLine: {'line': b'  100 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const char * string_value);\n'}
+[2.684099] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.684148] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:100:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.684198] (pathfinder) StderrLine: {'line': b'  100 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst char * string_value\x1b[m\x1b[K);\n'}
+[2.684281] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.684334] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:97:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.684391] (pathfinder) StderrLine: {'line': b'   97 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::string & string_value);\n'}
+[2.684442] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.684497] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:97:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.684550] (pathfinder) StderrLine: {'line': b'   97 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::string & string_value\x1b[m\x1b[K);\n'}
+[2.684605] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.684655] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.684704] (pathfinder) StderrLine: {'line': b'   94 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const double double_value);\n'}
+[2.684787] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.684840] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:94:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.684891] (pathfinder) StderrLine: {'line': b'   94 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst double double_value\x1b[m\x1b[K);\n'}
+[2.684940] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.684989] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685039] (pathfinder) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const float double_value);\n'}
+[2.685088] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.685137] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:91:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685187] (pathfinder) StderrLine: {'line': b'   91 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst float double_value\x1b[m\x1b[K);\n'}
+[2.685245] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.685332] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:88:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int64_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685383] (pathfinder) StderrLine: {'line': b'   88 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int64_t int_value);\n'}
+[2.685432] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.685481] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:88:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.685532] (pathfinder) StderrLine: {'line': b'   88 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int64_t int_value\x1b[m\x1b[K);\n'}
+[2.685581] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.685630] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:85:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685679] (pathfinder) StderrLine: {'line': b'   85 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int int_value);\n'}
+[2.685735] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.685820] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:85:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685875] (pathfinder) StderrLine: {'line': b'   85 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int int_value\x1b[m\x1b[K);\n'}
+[2.685925] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.685973] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:82:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686024] (pathfinder) StderrLine: {'line': b'   82 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const bool bool_value);\n'}
+[2.686073] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.686121] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:82:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686171] (pathfinder) StderrLine: {'line': b'   82 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst bool bool_value\x1b[m\x1b[K);\n'}
+[2.686230] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.686322] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:79:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686514] (pathfinder) StderrLine: {'line': b'   79 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const rcl_interfaces::msg::ParameterValue & value);\n'}
+[2.686571] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.686620] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:79:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterValue&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterValue_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.686673] (pathfinder) StderrLine: {'line': b'   79 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst rcl_interfaces::msg::ParameterValue & value\x1b[m\x1b[K);\n'}
+[2.686722] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.686772] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:76:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686858] (pathfinder) StderrLine: {'line': b'   76 |   \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K();\n'}
+[2.686911] (pathfinder) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.686960] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:76:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.687009] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.687073] (pathfinder) StderrLine: {'line': b'   71 | class \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K\n'}
+[2.687123] (pathfinder) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.687171] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.687222] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.687271] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Point\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.687360] (pathfinder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[2.687417] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.687467] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.687517] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.687566] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:6\x1b[m\x1b[K:\n'}
+[2.687616] (pathfinder) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<Point>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.687669] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:26:68:\x1b[m\x1b[K   required from here\n'}
+[2.687718] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:166:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<Point>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.687768] (pathfinder) StderrLine: {'line': b'  166 |       rclcpp::\x1b[01;31m\x1b[KParameterValue(default_value)\x1b[m\x1b[K,\n'}
+[2.687818] (pathfinder) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.687900] (pathfinder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[2.687953] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[2.688003] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[2.688052] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.688101] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.688161] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.688210] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:6\x1b[m\x1b[K:\n'}
+[2.688260] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:121:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.688316] (pathfinder) StderrLine: {'line': b'  121 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<std::string> & string_array_value);\n'}
+[2.688401] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.688454] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:121:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::__cxx11::basic_string<char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.688505] (pathfinder) StderrLine: {'line': b'  121 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<std::string> & string_array_value\x1b[m\x1b[K);\n'}
+[2.688555] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.688604] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:118:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<double, std::allocator<double> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.688654] (pathfinder) StderrLine: {'line': b'  118 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<double> & double_array_value);\n'}
+[2.688704] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.688752] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:118:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<double, std::allocator<double> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.688803] (pathfinder) StderrLine: {'line': b'  118 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<double> & double_array_value\x1b[m\x1b[K);\n'}
+[2.688852] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.688936] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:115:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.688988] (pathfinder) StderrLine: {'line': b'  115 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<float> & double_array_value);\n'}
+[2.689038] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.689088] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:115:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<float>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.689145] (pathfinder) StderrLine: {'line': b'  115 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<float> & double_array_value\x1b[m\x1b[K);\n'}
+[2.689200] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.689250] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:112:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<long int, std::allocator<long int> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.689299] (pathfinder) StderrLine: {'line': b'  112 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int64_t> & int_array_value);\n'}
+[2.689348] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.689432] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:112:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<long int, std::allocator<long int> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.689486] (pathfinder) StderrLine: {'line': b'  112 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int64_t> & int_array_value\x1b[m\x1b[K);\n'}
+[2.689537] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.689586] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:109:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<int>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.689636] (pathfinder) StderrLine: {'line': b'  109 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int> & int_array_value);\n'}
+[2.689685] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.689734] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:109:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.689790] (pathfinder) StderrLine: {'line': b'  109 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int> & int_array_value\x1b[m\x1b[K);\n'}
+[2.689841] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.689946] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:106:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<bool, std::allocator<bool> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690031] (pathfinder) StderrLine: {'line': b'  106 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<bool> & bool_array_value);\n'}
+[2.690090] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.690140] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:106:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<bool, std::allocator<bool> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690191] (pathfinder) StderrLine: {'line': b'  106 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<bool> & bool_array_value\x1b[m\x1b[K);\n'}
+[2.690240] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.690290] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<unsigned char, std::allocator<unsigned char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690346] (pathfinder) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<uint8_t> & byte_array_value);\n'}
+[2.690395] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.690499] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:103:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690553] (pathfinder) StderrLine: {'line': b'  103 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<uint8_t> & byte_array_value\x1b[m\x1b[K);\n'}
+[2.690602] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.690652] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:100:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690702] (pathfinder) StderrLine: {'line': b'  100 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const char * string_value);\n'}
+[2.690751] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.690800] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:100:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.690857] (pathfinder) StderrLine: {'line': b'  100 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst char * string_value\x1b[m\x1b[K);\n'}
+[2.690906] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.690996] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:97:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.691052] (pathfinder) StderrLine: {'line': b'   97 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::string & string_value);\n'}
+[2.691106] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.691156] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:97:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.691207] (pathfinder) StderrLine: {'line': b'   97 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::string & string_value\x1b[m\x1b[K);\n'}
+[2.691257] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.691307] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.691357] (pathfinder) StderrLine: {'line': b'   94 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const double double_value);\n'}
+[2.691416] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.691500] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:94:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.691560] (pathfinder) StderrLine: {'line': b'   94 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst double double_value\x1b[m\x1b[K);\n'}
+[2.691610] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.691660] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.691710] (pathfinder) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const float double_value);\n'}
+[2.691760] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.691810] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:91:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.691860] (pathfinder) StderrLine: {'line': b'   91 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst float double_value\x1b[m\x1b[K);\n'}
+[2.691909] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.691997] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:88:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int64_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.692051] (pathfinder) StderrLine: {'line': b'   88 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int64_t int_value);\n'}
+[2.692101] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.692151] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:88:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.692203] (pathfinder) StderrLine: {'line': b'   88 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int64_t int_value\x1b[m\x1b[K);\n'}
+[2.692252] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.692302] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:85:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.692352] (pathfinder) StderrLine: {'line': b'   85 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int int_value);\n'}
+[2.692402] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.692452] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:85:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.692538] (pathfinder) StderrLine: {'line': b'   85 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int int_value\x1b[m\x1b[K);\n'}
+[2.692596] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.692646] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:82:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.692696] (pathfinder) StderrLine: {'line': b'   82 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const bool bool_value);\n'}
+[2.692745] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.692794] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:82:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.692850] (pathfinder) StderrLine: {'line': b'   82 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst bool bool_value\x1b[m\x1b[K);\n'}
+[2.692900] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.692949] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:79:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693035] (pathfinder) StderrLine: {'line': b'   79 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const rcl_interfaces::msg::ParameterValue & value);\n'}
+[2.693088] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.693138] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:79:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterValue&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterValue_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.693190] (pathfinder) StderrLine: {'line': b'   79 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst rcl_interfaces::msg::ParameterValue & value\x1b[m\x1b[K);\n'}
+[2.693240] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.693368] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:76:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693431] (pathfinder) StderrLine: {'line': b'   76 |   \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K();\n'}
+[2.693482] (pathfinder) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.693567] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:76:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.693643] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693697] (pathfinder) StderrLine: {'line': b'   71 | class \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K\n'}
+[2.693746] (pathfinder) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.693795] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693853] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693903] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.693960] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FieldCreatorNode::create_field()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.694038] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:72:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} to non-scalar type \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 requested\n'}
+[2.694105] (pathfinder) StderrLine: {'line': b'   72 |         Point S = \x1b[01;31m\x1b[Kthis->get_parameter("S").as_int()\x1b[m\x1b[K;\n'}
+[2.694155] (pathfinder) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.694205] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:73:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} to non-scalar type \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 requested\n'}
+[2.694256] (pathfinder) StderrLine: {'line': b'   73 |         Point F = \x1b[01;31m\x1b[Kthis->get_parameter("F").as_int()\x1b[m\x1b[K;\n'}
+[2.694305] (pathfinder) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.694355] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:75:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kas_vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.694405] (pathfinder) StderrLine: {'line': b'   75 |         std::vector<Point> obstacles = this->get_parameter("obstacles").\x1b[01;31m\x1b[Kas_vector\x1b[m\x1b[K<Point>();\n'}
+[2.694456] (pathfinder) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.694506] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:75:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.694588] (pathfinder) StderrLine: {'line': b'   75 |         std::vector<Point> obstacles = this->get_parameter("obstacles").as_vector<Point\x1b[01;31m\x1b[K>\x1b[m\x1b[K();\n'}
+[2.694641] (pathfinder) StderrLine: {'line': b'      |                                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.694699] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:75:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.694749] (pathfinder) StderrLine: {'line': b'   75 |         std::vector<Point> obstacles = this->get_parameter("obstacles").as_vector<Point>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.694804] (pathfinder) StderrLine: {'line': b'      |                                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.694854] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:74:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.694905] (pathfinder) StderrLine: {'line': b'   74 |         int \x1b[01;35m\x1b[Kp\x1b[m\x1b[K = this->get_parameter("p").as_int();\n'}
+[2.694954] (pathfinder) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.720850] (-) TimerEvent: {}
+[2.766230] (pathfinder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[2.766780] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[2.766862] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.766914] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.767015] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.767083] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:6\x1b[m\x1b[K:\n'}
+[2.767595] (pathfinder) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Parameter::Parameter(const string&, ValueTypeT) [with ValueTypeT = Point; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.767658] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:62:53:\x1b[m\x1b[K   required from here\n'}
+[2.767711] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:70:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(Point&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.767763] (pathfinder) StderrLine: {'line': b'   70 |   : Parameter(name, \x1b[01;31m\x1b[KParameterValue(value)\x1b[m\x1b[K)\n'}
+[2.767813] (pathfinder) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.767862] (pathfinder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[2.767912] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[2.767991] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[2.768067] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.768128] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.768178] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.768227] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:6\x1b[m\x1b[K:\n'}
+[2.768276] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:121:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.768333] (pathfinder) StderrLine: {'line': b'  121 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<std::string> & string_array_value);\n'}
+[2.768382] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.768431] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:121:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::__cxx11::basic_string<char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.768508] (pathfinder) StderrLine: {'line': b'  121 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<std::string> & string_array_value\x1b[m\x1b[K);\n'}
+[2.768568] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.768617] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:118:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<double, std::allocator<double> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.768667] (pathfinder) StderrLine: {'line': b'  118 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<double> & double_array_value);\n'}
+[2.768716] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.768827] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:118:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<double, std::allocator<double> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.768881] (pathfinder) StderrLine: {'line': b'  118 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<double> & double_array_value\x1b[m\x1b[K);\n'}
+[2.768931] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.769062] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:115:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.769117] (pathfinder) StderrLine: {'line': b'  115 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<float> & double_array_value);\n'}
+[2.769166] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.769215] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:115:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<float>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.769271] (pathfinder) StderrLine: {'line': b'  115 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<float> & double_array_value\x1b[m\x1b[K);\n'}
+[2.769321] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.769370] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:112:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<long int, std::allocator<long int> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.769419] (pathfinder) StderrLine: {'line': b'  112 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int64_t> & int_array_value);\n'}
+[2.769477] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.769562] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:112:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<long int, std::allocator<long int> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.769617] (pathfinder) StderrLine: {'line': b'  112 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int64_t> & int_array_value\x1b[m\x1b[K);\n'}
+[2.769666] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.769714] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:109:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<int>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.769764] (pathfinder) StderrLine: {'line': b'  109 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int> & int_array_value);\n'}
+[2.769814] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.769863] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:109:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.769913] (pathfinder) StderrLine: {'line': b'  109 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int> & int_array_value\x1b[m\x1b[K);\n'}
+[2.769968] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.770018] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:106:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<bool, std::allocator<bool> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.770106] (pathfinder) StderrLine: {'line': b'  106 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<bool> & bool_array_value);\n'}
+[2.770158] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.770206] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:106:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<bool, std::allocator<bool> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.770257] (pathfinder) StderrLine: {'line': b'  106 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<bool> & bool_array_value\x1b[m\x1b[K);\n'}
+[2.770306] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.770355] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<unsigned char, std::allocator<unsigned char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.770404] (pathfinder) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<uint8_t> & byte_array_value);\n'}
+[2.770453] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.770503] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:103:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.770596] (pathfinder) StderrLine: {'line': b'  103 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<uint8_t> & byte_array_value\x1b[m\x1b[K);\n'}
+[2.770648] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.770697] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:100:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.770754] (pathfinder) StderrLine: {'line': b'  100 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const char * string_value);\n'}
+[2.770803] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.770860] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:100:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.770911] (pathfinder) StderrLine: {'line': b'  100 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst char * string_value\x1b[m\x1b[K);\n'}
+[2.770960] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.771008] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:97:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.771099] (pathfinder) StderrLine: {'line': b'   97 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::string & string_value);\n'}
+[2.771160] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.771209] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:97:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.771260] (pathfinder) StderrLine: {'line': b'   97 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::string & string_value\x1b[m\x1b[K);\n'}
+[2.771310] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.771359] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.771408] (pathfinder) StderrLine: {'line': b'   94 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const double double_value);\n'}
+[2.771458] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.771506] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:94:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.771555] (pathfinder) StderrLine: {'line': b'   94 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst double double_value\x1b[m\x1b[K);\n'}
+[2.771643] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.771702] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.771751] (pathfinder) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const float double_value);\n'}
+[2.771801] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.771855] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:91:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.771905] (pathfinder) StderrLine: {'line': b'   91 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst float double_value\x1b[m\x1b[K);\n'}
+[2.771955] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.772004] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:88:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int64_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.772057] (pathfinder) StderrLine: {'line': b'   88 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int64_t int_value);\n'}
+[2.772147] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.772200] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:88:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.772252] (pathfinder) StderrLine: {'line': b'   88 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int64_t int_value\x1b[m\x1b[K);\n'}
+[2.772301] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.772350] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:85:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.772399] (pathfinder) StderrLine: {'line': b'   85 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int int_value);\n'}
+[2.772448] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.772497] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:85:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.772547] (pathfinder) StderrLine: {'line': b'   85 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int int_value\x1b[m\x1b[K);\n'}
+[2.772617] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.772681] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:82:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.772738] (pathfinder) StderrLine: {'line': b'   82 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const bool bool_value);\n'}
+[2.772794] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.772843] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:82:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.772899] (pathfinder) StderrLine: {'line': b'   82 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst bool bool_value\x1b[m\x1b[K);\n'}
+[2.772948] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.772998] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:79:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.773050] (pathfinder) StderrLine: {'line': b'   79 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const rcl_interfaces::msg::ParameterValue & value);\n'}
+[2.773099] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.773184] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:79:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterValue&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterValue_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.773236] (pathfinder) StderrLine: {'line': b'   79 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst rcl_interfaces::msg::ParameterValue & value\x1b[m\x1b[K);\n'}
+[2.773286] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.773335] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:76:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.773384] (pathfinder) StderrLine: {'line': b'   76 |   \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K();\n'}
+[2.773433] (pathfinder) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.773482] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:76:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.773531] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.773580] (pathfinder) StderrLine: {'line': b'   71 | class \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K\n'}
+[2.773653] (pathfinder) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.773710] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.773761] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.773817] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.773872] (pathfinder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[2.773921] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[2.773970] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.774018] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.774072] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.774123] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:6\x1b[m\x1b[K:\n'}
+[2.774207] (pathfinder) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Parameter::Parameter(const string&, ValueTypeT) [with ValueTypeT = std::vector<Point>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.774260] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:65:69:\x1b[m\x1b[K   required from here\n'}
+[2.774310] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:70:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(std::vector<Point>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.774360] (pathfinder) StderrLine: {'line': b'   70 |   : Parameter(name, \x1b[01;31m\x1b[KParameterValue(value)\x1b[m\x1b[K)\n'}
+[2.774416] (pathfinder) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.774466] (pathfinder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[2.774516] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[2.774565] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[2.774614] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.774718] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.774772] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.774821] (pathfinder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/reaper/ros2_ws/src/pathfinder/src/node2_algo_out.cpp:6\x1b[m\x1b[K:\n'}
+[2.774870] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:121:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.774920] (pathfinder) StderrLine: {'line': b'  121 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<std::string> & string_array_value);\n'}
+[2.774969] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.775018] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:121:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::__cxx11::basic_string<char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.775076] (pathfinder) StderrLine: {'line': b'  121 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<std::string> & string_array_value\x1b[m\x1b[K);\n'}
+[2.775125] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.775205] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:118:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<double, std::allocator<double> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.775268] (pathfinder) StderrLine: {'line': b'  118 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<double> & double_array_value);\n'}
+[2.775317] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.775366] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:118:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<double, std::allocator<double> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.775418] (pathfinder) StderrLine: {'line': b'  118 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<double> & double_array_value\x1b[m\x1b[K);\n'}
+[2.775467] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.775516] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:115:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.775566] (pathfinder) StderrLine: {'line': b'  115 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<float> & double_array_value);\n'}
+[2.775625] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.775674] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:115:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<float>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.775774] (pathfinder) StderrLine: {'line': b'  115 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<float> & double_array_value\x1b[m\x1b[K);\n'}
+[2.775832] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.775882] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:112:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<long int, std::allocator<long int> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.775933] (pathfinder) StderrLine: {'line': b'  112 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int64_t> & int_array_value);\n'}
+[2.775983] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.776032] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:112:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<long int, std::allocator<long int> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.776083] (pathfinder) StderrLine: {'line': b'  112 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int64_t> & int_array_value\x1b[m\x1b[K);\n'}
+[2.776139] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.776207] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:109:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<int>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.776275] (pathfinder) StderrLine: {'line': b'  109 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<int> & int_array_value);\n'}
+[2.776324] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.776374] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:109:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.776431] (pathfinder) StderrLine: {'line': b'  109 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<int> & int_array_value\x1b[m\x1b[K);\n'}
+[2.776480] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.776529] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:106:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<bool, std::allocator<bool> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.776578] (pathfinder) StderrLine: {'line': b'  106 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<bool> & bool_array_value);\n'}
+[2.776627] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.776675] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:106:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<bool, std::allocator<bool> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.776756] (pathfinder) StderrLine: {'line': b'  106 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<bool> & bool_array_value\x1b[m\x1b[K);\n'}
+[2.776809] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.776858] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const std::vector<unsigned char, std::allocator<unsigned char> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.776908] (pathfinder) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::vector<uint8_t> & byte_array_value);\n'}
+[2.776957] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.777008] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:103:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.777059] (pathfinder) StderrLine: {'line': b'  103 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::vector<uint8_t> & byte_array_value\x1b[m\x1b[K);\n'}
+[2.777107] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.777156] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:100:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.777213] (pathfinder) StderrLine: {'line': b'  100 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const char * string_value);\n'}
+[2.777294] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.777344] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:100:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.777400] (pathfinder) StderrLine: {'line': b'  100 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst char * string_value\x1b[m\x1b[K);\n'}
+[2.777449] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.777498] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:97:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.777547] (pathfinder) StderrLine: {'line': b'   97 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const std::string & string_value);\n'}
+[2.777595] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.777644] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:97:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.777694] (pathfinder) StderrLine: {'line': b'   97 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst std::string & string_value\x1b[m\x1b[K);\n'}
+[2.777781] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.777837] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:94:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.777887] (pathfinder) StderrLine: {'line': b'   94 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const double double_value);\n'}
+[2.777935] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.777984] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:94:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.778033] (pathfinder) StderrLine: {'line': b'   94 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst double double_value\x1b[m\x1b[K);\n'}
+[2.778082] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.778131] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.778185] (pathfinder) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const float double_value);\n'}
+[2.778235] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.778335] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:91:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.778395] (pathfinder) StderrLine: {'line': b'   91 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst float double_value\x1b[m\x1b[K);\n'}
+[2.778444] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.778493] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:88:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int64_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.778542] (pathfinder) StderrLine: {'line': b'   88 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int64_t int_value);\n'}
+[2.778591] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.778639] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:88:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.778690] (pathfinder) StderrLine: {'line': b'   88 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int64_t int_value\x1b[m\x1b[K);\n'}
+[2.778739] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.778822] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:85:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.778875] (pathfinder) StderrLine: {'line': b'   85 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const int int_value);\n'}
+[2.778925] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.778974] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:85:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.779023] (pathfinder) StderrLine: {'line': b'   85 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst int int_value\x1b[m\x1b[K);\n'}
+[2.779079] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.779128] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:82:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.779177] (pathfinder) StderrLine: {'line': b'   82 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const bool bool_value);\n'}
+[2.779225] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.779293] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:82:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.779367] (pathfinder) StderrLine: {'line': b'   82 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst bool bool_value\x1b[m\x1b[K);\n'}
+[2.779417] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.779466] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:79:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.779521] (pathfinder) StderrLine: {'line': b'   79 |   explicit \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K(const rcl_interfaces::msg::ParameterValue & value);\n'}
+[2.779570] (pathfinder) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.779620] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:79:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterValue&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterValue_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.779677] (pathfinder) StderrLine: {'line': b'   79 |   explicit ParameterValue(\x1b[01;36m\x1b[Kconst rcl_interfaces::msg::ParameterValue & value\x1b[m\x1b[K);\n'}
+[2.779727] (pathfinder) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.779776] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:76:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.779861] (pathfinder) StderrLine: {'line': b'   76 |   \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K();\n'}
+[2.779914] (pathfinder) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.779963] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:76:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[2.780013] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.780063] (pathfinder) StderrLine: {'line': b'   71 | class \x1b[01;36m\x1b[KParameterValue\x1b[m\x1b[K\n'}
+[2.780112] (pathfinder) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.780161] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.780218] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.780267] (pathfinder) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.822551] (-) TimerEvent: {}
+[2.924793] (-) TimerEvent: {}
+[3.027408] (-) TimerEvent: {}
+[3.072978] (pathfinder) StderrLine: {'line': b'make[2]: *** [CMakeFiles/algo_out.dir/build.make:63: CMakeFiles/algo_out.dir/src/node2_algo_out.cpp.o] Error 1\n'}
+[3.073369] (pathfinder) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/algo_out.dir/all] Error 2\n'}
+[3.073452] (pathfinder) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.128693] (-) TimerEvent: {}
+[3.229545] (-) TimerEvent: {}
+[3.333121] (-) TimerEvent: {}
+[3.435321] (-) TimerEvent: {}
+[3.536150] (-) TimerEvent: {}
+[3.637906] (-) TimerEvent: {}
+[3.738598] (-) TimerEvent: {}
+[3.839230] (-) TimerEvent: {}
+[3.941447] (-) TimerEvent: {}
+[4.042129] (-) TimerEvent: {}
+[4.142769] (-) TimerEvent: {}
+[4.166213] (pathfinder) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable in_map\x1b[0m\n'}
+[4.243882] (-) TimerEvent: {}
+[4.315892] (pathfinder) StdoutLine: {'line': b'[ 75%] Built target in_map\n'}
+[4.317228] (pathfinder) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.319537] (pathfinder) CommandEnded: {'returncode': 2}
+[4.344425] (-) TimerEvent: {}
+[4.355310] (pathfinder) JobEnded: {'identifier': 'pathfinder', 'rc': 2}
+[4.366183] (-) EventReactorShutdown: {}
